@@ -1,0 +1,211 @@
+{
+  "2026": {
+    "California": {
+      "exemption_credit_phaseout": {
+        "thresholds": {
+          "single": 252203,
+          "married": 504411
+        },
+        "reduction_per_step": {
+          "single": 6.0,
+          "married": 12.0
+        },
+        "step_size": 2500,
+        "note": "Exemption credits phase out by $6 (single) / $12 (MFJ) per $2,500 of federal AGI over the threshold (2025 thresholds).",
+        "note_zh": "\u514d\u7a05\u984d\u62b5\u7a05\u984d\u5728\u806f\u90a6 AGI \u8d85\u904e\u9580\u6abb\u5f8c\uff0c\u6bcf $2,500 \u905e\u6e1b $6\uff08\u55ae\u8eab\uff09/$12\uff08\u592b\u59bb\u5408\u5831\uff09\uff082025 \u5e74\u9580\u6abb\uff09\u3002"
+      }
+    },
+    "Connecticut": {
+      "exemption_phaseout_step": {
+        "thresholds": {
+          "single": 30000,
+          "married": 48000
+        },
+        "reduction_per_step": 1000,
+        "step_size": 1000,
+        "note": "Personal exemption reduced by $1,000 per $1,000 of CT AGI over the threshold.",
+        "note_zh": "\u500b\u4eba\u514d\u7a05\u984d\u5728 CT AGI \u8d85\u904e\u9580\u6abb\u5f8c\uff0c\u6bcf\u8d85\u904e $1,000 \u905e\u6e1b $1,000\u3002"
+      },
+      "recapture": {
+        "bracket_shift": {
+          "single": {
+            "threshold": 56500,
+            "reduction_per_step": 1000,
+            "step_size": 5000
+          },
+          "married": {
+            "threshold": 100500,
+            "reduction_per_step": 2000,
+            "step_size": 5000
+          }
+        },
+        "shift_rate_delta": 0.025,
+        "payments": {
+          "single": {
+            "items": [
+              {
+                "threshold": 105000,
+                "per_step": 25,
+                "step_size": 5000,
+                "max": 250
+              },
+              {
+                "threshold": 200000,
+                "per_step": 90,
+                "step_size": 5000,
+                "upper_bound": 500000
+              },
+              {
+                "threshold": 500000,
+                "per_step": 50,
+                "step_size": 5000
+              }
+            ],
+            "combined_max": 3150,
+            "combined_from_index": 1
+          },
+          "married": {
+            "items": [
+              {
+                "threshold": 210000,
+                "per_step": 50,
+                "step_size": 10000,
+                "max": 500
+              },
+              {
+                "threshold": 400000,
+                "per_step": 180,
+                "step_size": 10000,
+                "max": 5400
+              },
+              {
+                "threshold": 1000000,
+                "per_step": 100,
+                "step_size": 10000
+              }
+            ],
+            "combined_max": 6300,
+            "combined_from_index": 1
+          }
+        },
+        "note": "CT tax benefit recapture: portion of the 2% bracket is taxed at 4.5% and recapture payments apply above AGI thresholds (footnote p).",
+        "note_zh": "\u5eb7\u5dde\u7a05\u8ce6\u56de\u88dc\uff08recapture\uff09\uff1a\u8d85\u904e AGI \u9580\u6abb\u5f8c\uff0c\u90e8\u5206 2% \u7d1a\u8ddd\u6539\u6309 4.5% \u8ab2\u7a05\uff0c\u4e26\u52a0\u5fb5\u56de\u88dc\u91d1\u984d\uff08\u8a3b\u8173 p\uff09\u3002"
+      }
+    },
+    "New York": {
+      "top_rate_recapture": {
+        "thresholds": {
+          "single": 107650,
+          "married": 2155350
+        },
+        "note": "NY tax benefit recapture: when NY AGI exceeds the threshold, tax is the greater of the bracket tax or the top rate applied to all taxable income (2025 indexed thresholds).",
+        "note_zh": "\u7d10\u7d04\u5dde\u7a05\u8ce6\u56de\u88dc\uff1aNY AGI \u8d85\u904e\u9580\u6abb\u6642\uff0c\u7a05\u984d\u53d6\u7d1a\u8ddd\u7a05\u8207\u6700\u9ad8\u7a05\u7387\u4e58\u5168\u90e8\u61c9\u7a05\u6240\u5f97\u4e4b\u8f03\u9ad8\u8005\uff082025 \u5e74\u901a\u81a8\u8abf\u6574\u9580\u6abb\uff09\u3002"
+      }
+    },
+    "Ohio": {
+      "exemption_tiers": {
+        "tiers": [
+          {
+            "max_agi": 40000,
+            "amount": 2400
+          },
+          {
+            "max_agi": 80000,
+            "amount": 2150
+          },
+          {
+            "max_agi": 500000,
+            "amount": 1900
+          },
+          {
+            "max_agi": null,
+            "amount": 0
+          }
+        ],
+        "note": "Ohio personal/dependent exemption tiers by AGI (footnote dd).",
+        "note_zh": "\u4fc4\u4ea5\u4fc4\u5dde\u500b\u4eba/\u6276\u990a\u514d\u7a05\u984d\u4f9d AGI \u5206\u7d1a\uff08\u8a3b\u8173 dd\uff09\u3002"
+      }
+    },
+    "New Mexico": {
+      "dependent_deduction_all_but_one": {
+        "per_dependent": 4000,
+        "note": "NM offers a $4,000 deduction for all but one of the taxpayer's dependents (footnote jj).",
+        "note_zh": "\u65b0\u58a8\u897f\u54e5\u5dde\u5c0d\u300c\u9664\u4e00\u540d\u4ee5\u5916\u7684\u6240\u6709\u6276\u990a\u4eba\u300d\u5404\u63d0\u4f9b $4,000 \u6263\u9664\u984d\uff08\u8a3b\u8173 jj\uff09\u3002"
+      }
+    },
+    "Vermont": {
+      "agi_floor": {
+        "threshold": 150000,
+        "rate": 0.03,
+        "note": "If federal AGI exceeds $150,000, VT tax is the greater of the bracket tax or 3% of AGI.",
+        "note_zh": "\u806f\u90a6 AGI \u8d85\u904e $150,000 \u6642\uff0c\u4f5b\u8499\u7279\u5dde\u7a05\u984d\u53d6\u7d1a\u8ddd\u7a05\u8207 AGI \u7684 3% \u4e4b\u8f03\u9ad8\u8005\u3002"
+      },
+      "extra_standard_deduction": {
+        "single": 1250,
+        "married": 2500,
+        "note": "Additional deduction of $1,250 per federal standard deduction box (2025 amount, footnote mm).",
+        "note_zh": "\u6bcf\u500b\u806f\u90a6\u6a19\u6e96\u6263\u9664\u984d\u6b04\u4f4d\u53e6\u52a0 $1,250 \u6263\u9664\u984d\uff082025 \u5e74\u91d1\u984d\uff0c\u8a3b\u8173 mm\uff09\u3002"
+      }
+    },
+    "Minnesota": {
+      "standard_deduction_phaseout": {
+        "t1": 244400,
+        "t2": 337800,
+        "pct1": 0.03,
+        "pct2": 0.1,
+        "max_reduction_pct": 0.8,
+        "note": "MN standard deduction reduced by 3% of AGI over $244,400 plus 10% of AGI over $337,800, capped at 80% of the deduction (footnote cc).",
+        "note_zh": "\u660e\u5c3c\u8607\u9054\u5dde\u6a19\u6e96\u6263\u9664\u984d\u4f9d AGI \u905e\u6e1b\uff08\u8d85\u904e $244,400 \u90e8\u5206\u6e1b 3%\uff0c\u8d85\u904e $337,800 \u90e8\u5206\u518d\u6e1b 10%\uff09\uff0c\u6700\u591a\u6e1b 80%\uff08\u8a3b\u8173 cc\uff09\u3002"
+      },
+      "investment_surtax": {
+        "threshold": 1000000,
+        "rate": 0.01,
+        "note": "Approximation: MN 1% surtax on net investment income over $1M, applied to the capital gains input (footnote oo).",
+        "note_zh": "\u8fd1\u4f3c\u8655\u7406\uff1a\u660e\u5dde\u5c0d\u8d85\u904e $100 \u842c\u7684\u6de8\u6295\u8cc7\u6240\u5f97\u8ab2 1% \u9644\u52a0\u7a05\uff0c\u4ee5\u8cc7\u672c\u5229\u5f97\u8f38\u5165\u503c\u5957\u7528\uff08\u8a3b\u8173 oo\uff09\u3002"
+      }
+    },
+    "Maryland": {
+      "exemption_phaseout_range": {
+        "single": {
+          "start": 100000,
+          "end": 150000
+        },
+        "married": {
+          "start": 150000,
+          "end": 200000
+        },
+        "note": "MD $3,200 exemption phases out linearly over the AGI range (footnote aa).",
+        "note_zh": "\u99ac\u91cc\u862d\u5dde $3,200 \u514d\u7a05\u984d\u5728 AGI \u5340\u9593\u5167\u7dda\u6027\u905e\u6e1b\u81f3\u96f6\uff08\u8a3b\u8173 aa\uff09\u3002"
+      },
+      "capital_gains_surtax": {
+        "agi_threshold": 350000,
+        "rate": 0.02,
+        "note": "MD levies an additional 2% surtax on capital gains when AGI exceeds $350,000 (footnote x).",
+        "note_zh": "AGI \u8d85\u904e $350,000 \u6642\uff0c\u99ac\u91cc\u862d\u5dde\u5c0d\u8cc7\u672c\u5229\u5f97\u52a0\u5fb5 2% \u9644\u52a0\u7a05\uff08\u8a3b\u8173 x\uff09\u3002"
+      }
+    },
+    "Oregon": {
+      "exemption_credit_limit": {
+        "thresholds": {
+          "single": 100000,
+          "married": 200000
+        },
+        "note": "OR personal exemption credit not allowed if federal AGI exceeds the threshold (footnote ee).",
+        "note_zh": "\u806f\u90a6 AGI \u8d85\u904e\u9580\u6abb\u6642\uff0c\u4fc4\u52d2\u5ca1\u5dde\u500b\u4eba\u514d\u7a05\u984d\u62b5\u7a05\u984d\u4e0d\u9069\u7528\uff08\u8a3b\u8173 ee\uff09\u3002"
+      }
+    },
+    "Maine": {
+      "refundable_dependent_credit": {
+        "note": "ME dependent exemption credit is refundable (footnote ww); tax may fall below $0. The $610 credit for dependents under 6 is not modeled.",
+        "note_zh": "\u7dec\u56e0\u5dde\u6276\u990a\u62b5\u7a05\u984d\u53ef\u9000\u9084\uff08\u8a3b\u8173 ww\uff09\uff0c\u7a05\u984d\u53ef\u80fd\u4f4e\u65bc $0\u30026 \u6b72\u4ee5\u4e0b\u6276\u990a\u4eba $610 \u4e4b\u91d1\u984d\u672a\u7d0d\u5165\u6a21\u578b\u3002"
+      }
+    },
+    "Washington": {
+      "capital_gains_tax": {
+        "standard_deduction": 278000,
+        "note": "WA 7% excise on capital gains over $278,000 (9% above $1M of taxable gains). Ordinary income is not taxed.",
+        "note_zh": "\u83ef\u76db\u9813\u5dde\u5c0d\u8d85\u904e $278,000 \u7684\u8cc7\u672c\u5229\u5f97\u8ab2 7% \u7a05\uff08\u61c9\u7a05\u5229\u5f97\u8d85\u904e $100 \u842c\u90e8\u5206 9%\uff09\u3002\u666e\u901a\u6240\u5f97\u4e0d\u8ab2\u7a05\u3002"
+      }
+    }
+  }
+}

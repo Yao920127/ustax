@@ -1,0 +1,2166 @@
+{
+  "Alabama": {
+    "state_name": "Alabama",
+    "state_abbr": "Ala.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.02,
+        "min_income": 0.0,
+        "max_income": 500.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 500.0,
+        "max_income": 3000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 3000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2500,
+    "personal_exemption_married": 7500,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "b",
+      "f",
+      "gg"
+    ],
+    "notes": ""
+  },
+  "Alaska": {
+    "state_name": "Alaska",
+    "state_abbr": "Alaska",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Arizona": {
+    "state_name": "Arizona",
+    "state_abbr": "Ariz.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0259,
+        "min_income": 0.0,
+        "max_income": 10346.0
+      },
+      {
+        "rate": 0.0288,
+        "min_income": 10346.0,
+        "max_income": 25861.0
+      },
+      {
+        "rate": 0.0336,
+        "min_income": 25861.0,
+        "max_income": 51721.0
+      },
+      {
+        "rate": 0.0424,
+        "min_income": 51721.0,
+        "max_income": 155159.0
+      },
+      {
+        "rate": 0.0454,
+        "min_income": 155159.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 5183,
+    "personal_exemption_married": 10336,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e"
+    ],
+    "notes": ""
+  },
+  "Arkansas": {
+    "state_name": "Arkansas",
+    "state_abbr": "Ark.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.009,
+        "min_income": 0.0,
+        "max_income": 4299.0
+      },
+      {
+        "rate": 0.025,
+        "min_income": 4299.0,
+        "max_income": 8499.0
+      },
+      {
+        "rate": 0.035,
+        "min_income": 8499.0,
+        "max_income": 12699.0
+      },
+      {
+        "rate": 0.045,
+        "min_income": 12699.0,
+        "max_income": 21199.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 21199.0,
+        "max_income": 35099.0
+      },
+      {
+        "rate": 0.069,
+        "min_income": 35099.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2200,
+    "personal_exemption_married": 4400,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "d",
+      "e",
+      "bb"
+    ],
+    "notes": ""
+  },
+  "California": {
+    "state_name": "California",
+    "state_abbr": "Calif.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.01,
+        "min_income": 0.0,
+        "max_income": 8544.0
+      },
+      {
+        "rate": 0.02,
+        "min_income": 8544.0,
+        "max_income": 20255.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 20255.0,
+        "max_income": 31969.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 31969.0,
+        "max_income": 44377.0
+      },
+      {
+        "rate": 0.08,
+        "min_income": 44377.0,
+        "max_income": 56085.0
+      },
+      {
+        "rate": 0.093,
+        "min_income": 56085.0,
+        "max_income": 286492.0
+      },
+      {
+        "rate": 0.103,
+        "min_income": 286492.0,
+        "max_income": 343788.0
+      },
+      {
+        "rate": 0.113,
+        "min_income": 343788.0,
+        "max_income": 572980.0
+      },
+      {
+        "rate": 0.123,
+        "min_income": 572980.0,
+        "max_income": 1000000.0
+      },
+      {
+        "rate": 0.133,
+        "min_income": 1000000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 4401,
+    "personal_exemption_married": 8802,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "r",
+      "s ff",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Colorado": {
+    "state_name": "Colorado",
+    "state_abbr": "Colo.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0463,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Connecticut": {
+    "state_name": "Connecticut",
+    "state_abbr": "Conn.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.03,
+        "min_income": 0.0,
+        "max_income": 10000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 10000.0,
+        "max_income": 50000.0
+      },
+      {
+        "rate": 0.055,
+        "min_income": 50000.0,
+        "max_income": 100000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 100000.0,
+        "max_income": 200000.0
+      },
+      {
+        "rate": 0.065,
+        "min_income": 200000.0,
+        "max_income": 250000.0
+      },
+      {
+        "rate": 0.069,
+        "min_income": 250000.0,
+        "max_income": 500000.0
+      },
+      {
+        "rate": 0.0699,
+        "min_income": 500000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "t",
+      "u"
+    ],
+    "notes": ""
+  },
+  "Delaware": {
+    "state_name": "Delaware",
+    "state_abbr": "Del.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.022,
+        "min_income": 2000.0,
+        "max_income": 5000.0
+      },
+      {
+        "rate": 0.039,
+        "min_income": 5000.0,
+        "max_income": 10000.0
+      },
+      {
+        "rate": 0.048,
+        "min_income": 10000.0,
+        "max_income": 20000.0
+      },
+      {
+        "rate": 0.052,
+        "min_income": 20000.0,
+        "max_income": 25000.0
+      },
+      {
+        "rate": 0.0555,
+        "min_income": 25000.0,
+        "max_income": 60000.0
+      },
+      {
+        "rate": 0.066,
+        "min_income": 60000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 2000,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 3250,
+    "personal_exemption_married": 6500,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "f",
+      "r",
+      "v",
+      "gg",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Florida": {
+    "state_name": "Florida",
+    "state_abbr": "Fla.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Georgia": {
+    "state_name": "Georgia",
+    "state_abbr": "Ga.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.01,
+        "min_income": 0.0,
+        "max_income": 750.0
+      },
+      {
+        "rate": 0.02,
+        "min_income": 750.0,
+        "max_income": 2250.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 2250.0,
+        "max_income": 3750.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 3750.0,
+        "max_income": 5250.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 5250.0,
+        "max_income": 7000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 7000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 4600,
+    "personal_exemption_married": 6000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Hawaii": {
+    "state_name": "Hawaii",
+    "state_abbr": "Hawaii",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.014,
+        "min_income": 0.0,
+        "max_income": 2400.0
+      },
+      {
+        "rate": 0.032,
+        "min_income": 2400.0,
+        "max_income": 4800.0
+      },
+      {
+        "rate": 0.055,
+        "min_income": 4800.0,
+        "max_income": 9600.0
+      },
+      {
+        "rate": 0.064,
+        "min_income": 9600.0,
+        "max_income": 14400.0
+      },
+      {
+        "rate": 0.068,
+        "min_income": 14400.0,
+        "max_income": 19200.0
+      },
+      {
+        "rate": 0.072,
+        "min_income": 19200.0,
+        "max_income": 24000.0
+      },
+      {
+        "rate": 0.076,
+        "min_income": 24000.0,
+        "max_income": 36000.0
+      },
+      {
+        "rate": 0.079,
+        "min_income": 36000.0,
+        "max_income": 48000.0
+      },
+      {
+        "rate": 0.0825,
+        "min_income": 48000.0,
+        "max_income": 150000.0
+      },
+      {
+        "rate": 0.09,
+        "min_income": 150000.0,
+        "max_income": 175000.0
+      },
+      {
+        "rate": 0.1,
+        "min_income": 175000.0,
+        "max_income": 200000.0
+      },
+      {
+        "rate": 0.11,
+        "min_income": 200000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2200,
+    "personal_exemption_married": 4400,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "w",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Idaho": {
+    "state_name": "Idaho",
+    "state_abbr": "Idaho",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.016,
+        "min_income": 0.0,
+        "max_income": 1472.0
+      },
+      {
+        "rate": 0.036,
+        "min_income": 1472.0,
+        "max_income": 2945.0
+      },
+      {
+        "rate": 0.041,
+        "min_income": 2945.0,
+        "max_income": 4417.0
+      },
+      {
+        "rate": 0.051,
+        "min_income": 4417.0,
+        "max_income": 5890.0
+      },
+      {
+        "rate": 0.061,
+        "min_income": 5890.0,
+        "max_income": 7362.0
+      },
+      {
+        "rate": 0.071,
+        "min_income": 7362.0,
+        "max_income": 11043.0
+      },
+      {
+        "rate": 0.074,
+        "min_income": 11043.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 6350,
+    "personal_exemption_married": 12700,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "p"
+    ],
+    "notes": ""
+  },
+  "Illinois": {
+    "state_name": "Illinois",
+    "state_abbr": "Ill.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0495,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "dd",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Indiana": {
+    "state_name": "Indiana",
+    "state_abbr": "Ind.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0323,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "x",
+      "gg",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Iowa": {
+    "state_name": "Iowa",
+    "state_abbr": "Iowa",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0036,
+        "min_income": 0.0,
+        "max_income": 1598.0
+      },
+      {
+        "rate": 0.0072,
+        "min_income": 1598.0,
+        "max_income": 3196.0
+      },
+      {
+        "rate": 0.0243,
+        "min_income": 3196.0,
+        "max_income": 6392.0
+      },
+      {
+        "rate": 0.045,
+        "min_income": 6392.0,
+        "max_income": 14382.0
+      },
+      {
+        "rate": 0.0612,
+        "min_income": 14382.0,
+        "max_income": 23970.0
+      },
+      {
+        "rate": 0.0648,
+        "min_income": 23970.0,
+        "max_income": 31960.0
+      },
+      {
+        "rate": 0.068,
+        "min_income": 31960.0,
+        "max_income": 47940.0
+      },
+      {
+        "rate": 0.0792,
+        "min_income": 47940.0,
+        "max_income": 71910.0
+      },
+      {
+        "rate": 0.0898,
+        "min_income": 71910.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2030,
+    "personal_exemption_married": 5000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "f",
+      "r",
+      "gg"
+    ],
+    "notes": ""
+  },
+  "Kansas": {
+    "state_name": "Kansas",
+    "state_abbr": "Kans.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.031,
+        "min_income": 2500.0,
+        "max_income": 15000.0
+      },
+      {
+        "rate": 0.0525,
+        "min_income": 15000.0,
+        "max_income": 30000.0
+      },
+      {
+        "rate": 0.057,
+        "min_income": 30000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 5000,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 3000,
+    "personal_exemption_married": 7500,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Kentucky": {
+    "state_name": "Kentucky",
+    "state_abbr": "Ky.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.02,
+        "min_income": 0.0,
+        "max_income": 3000.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 3000.0,
+        "max_income": 4000.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 4000.0,
+        "max_income": 5000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 5000.0,
+        "max_income": 8000.0
+      },
+      {
+        "rate": 0.058,
+        "min_income": 8000.0,
+        "max_income": 75000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 75000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2480,
+    "personal_exemption_married": 2480,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "r",
+      "gg",
+      "ii"
+    ],
+    "notes": ""
+  },
+  "Louisiana": {
+    "state_name": "Louisiana",
+    "state_abbr": "La.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.02,
+        "min_income": 0.0,
+        "max_income": 12500.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 12500.0,
+        "max_income": 50000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 50000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "f",
+      "n"
+    ],
+    "notes": ""
+  },
+  "Maine": {
+    "state_name": "Maine",
+    "state_abbr": "Maine",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.058,
+        "min_income": 0.0,
+        "max_income": 21450.0
+      },
+      {
+        "rate": 0.0675,
+        "min_income": 21450.0,
+        "max_income": 50750.0
+      },
+      {
+        "rate": 0.0715,
+        "min_income": 50750.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 11800,
+    "personal_exemption_married": 23600,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "e",
+      "p"
+    ],
+    "notes": ""
+  },
+  "Maryland": {
+    "state_name": "Maryland",
+    "state_abbr": "Md.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.02,
+        "min_income": 0.0,
+        "max_income": 1000.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 1000.0,
+        "max_income": 2000.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 2000.0,
+        "max_income": 3000.0
+      },
+      {
+        "rate": 0.0475,
+        "min_income": 3000.0,
+        "max_income": 100000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 100000.0,
+        "max_income": 125000.0
+      },
+      {
+        "rate": 0.0525,
+        "min_income": 125000.0,
+        "max_income": 150000.0
+      },
+      {
+        "rate": 0.055,
+        "min_income": 150000.0,
+        "max_income": 250000.0
+      },
+      {
+        "rate": 0.0575,
+        "min_income": 250000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2000,
+    "personal_exemption_married": 4000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "o",
+      "y",
+      "gg",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Massachusetts": {
+    "state_name": "Massachusetts",
+    "state_abbr": "Mass.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.051,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Michigan": {
+    "state_name": "Michigan",
+    "state_abbr": "Mich.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0425,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "gg"
+    ],
+    "notes": ""
+  },
+  "Minnesota": {
+    "state_name": "Minnesota",
+    "state_abbr": "Minn.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0535,
+        "min_income": 0.0,
+        "max_income": 25890.0
+      },
+      {
+        "rate": 0.0705,
+        "min_income": 25890.0,
+        "max_income": 85060.0
+      },
+      {
+        "rate": 0.0785,
+        "min_income": 85060.0,
+        "max_income": 160020.0
+      },
+      {
+        "rate": 0.0985,
+        "min_income": 160020.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Mississippi": {
+    "state_name": "Mississippi",
+    "state_abbr": "Miss.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.03,
+        "min_income": 1000.0,
+        "max_income": 5000.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 5000.0,
+        "max_income": 10000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 10000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 1000,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2300,
+    "personal_exemption_married": 4600,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Missouri": {
+    "state_name": "Missouri",
+    "state_abbr": "Mo.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.015,
+        "min_income": 100.0,
+        "max_income": 1008.0
+      },
+      {
+        "rate": 0.02,
+        "min_income": 1008.0,
+        "max_income": 2016.0
+      },
+      {
+        "rate": 0.025,
+        "min_income": 2016.0,
+        "max_income": 3024.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 3024.0,
+        "max_income": 4032.0
+      },
+      {
+        "rate": 0.035,
+        "min_income": 4032.0,
+        "max_income": 5040.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 5040.0,
+        "max_income": 6048.0
+      },
+      {
+        "rate": 0.045,
+        "min_income": 6048.0,
+        "max_income": 7056.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 7056.0,
+        "max_income": 8064.0
+      },
+      {
+        "rate": 0.055,
+        "min_income": 8064.0,
+        "max_income": 9072.0
+      },
+      {
+        "rate": 0.059,
+        "min_income": 9072.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 100,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 12000,
+    "personal_exemption_married": 24000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "p",
+      "gg",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Montana": {
+    "state_name": "Montana",
+    "state_abbr": "Mont.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.01,
+        "min_income": 0.0,
+        "max_income": 3000.0
+      },
+      {
+        "rate": 0.02,
+        "min_income": 3000.0,
+        "max_income": 5200.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 5200.0,
+        "max_income": 8000.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 8000.0,
+        "max_income": 10800.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 10800.0,
+        "max_income": 13900.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 13900.0,
+        "max_income": 17900.0
+      },
+      {
+        "rate": 0.069,
+        "min_income": 17900.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 4580,
+    "personal_exemption_married": 9160,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "e",
+      "f",
+      "q"
+    ],
+    "notes": ""
+  },
+  "Nebraska": {
+    "state_name": "Nebraska",
+    "state_abbr": "Nebr.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0246,
+        "min_income": 0.0,
+        "max_income": 3150.0
+      },
+      {
+        "rate": 0.0351,
+        "min_income": 3150.0,
+        "max_income": 18880.0
+      },
+      {
+        "rate": 0.0501,
+        "min_income": 18880.0,
+        "max_income": 30420.0
+      },
+      {
+        "rate": 0.0684,
+        "min_income": 30420.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 6500,
+    "personal_exemption_married": 13000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "r",
+      "bb",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Nevada": {
+    "state_name": "Nevada",
+    "state_abbr": "Nev.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "New Hampshire": {
+    "state_name": "New Hampshire",
+    "state_abbr": "N.H.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": true,
+    "brackets_single": [
+      {
+        "rate": 0.05,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "c"
+    ],
+    "notes": ""
+  },
+  "New Jersey": {
+    "state_name": "New Jersey",
+    "state_abbr": "N.J.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.014,
+        "min_income": 0.0,
+        "max_income": 20000.0
+      },
+      {
+        "rate": 0.0175,
+        "min_income": 20000.0,
+        "max_income": 35000.0
+      },
+      {
+        "rate": 0.035,
+        "min_income": 35000.0,
+        "max_income": 40000.0
+      },
+      {
+        "rate": 0.05525,
+        "min_income": 40000.0,
+        "max_income": 75000.0
+      },
+      {
+        "rate": 0.0637,
+        "min_income": 75000.0,
+        "max_income": 500000.0
+      },
+      {
+        "rate": 0.0897,
+        "min_income": 500000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "gg"
+    ],
+    "notes": ""
+  },
+  "New Mexico": {
+    "state_name": "New Mexico",
+    "state_abbr": "N.M.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.017,
+        "min_income": 0.0,
+        "max_income": 5500.0
+      },
+      {
+        "rate": 0.032,
+        "min_income": 5500.0,
+        "max_income": 11000.0
+      },
+      {
+        "rate": 0.047,
+        "min_income": 11000.0,
+        "max_income": 16000.0
+      },
+      {
+        "rate": 0.049,
+        "min_income": 16000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 12000,
+    "personal_exemption_married": 24000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "New York": {
+    "state_name": "New York",
+    "state_abbr": "N.Y.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.04,
+        "min_income": 0.0,
+        "max_income": 8500.0
+      },
+      {
+        "rate": 0.045,
+        "min_income": 8500.0,
+        "max_income": 11700.0
+      },
+      {
+        "rate": 0.0525,
+        "min_income": 11700.0,
+        "max_income": 13900.0
+      },
+      {
+        "rate": 0.059,
+        "min_income": 13900.0,
+        "max_income": 21400.0
+      },
+      {
+        "rate": 0.0633,
+        "min_income": 21400.0,
+        "max_income": 80650.0
+      },
+      {
+        "rate": 0.0657,
+        "min_income": 80650.0,
+        "max_income": 215400.0
+      },
+      {
+        "rate": 0.0685,
+        "min_income": 215400.0,
+        "max_income": 1077550.0
+      },
+      {
+        "rate": 0.0882,
+        "min_income": 1077550.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 8000,
+    "personal_exemption_married": 16050,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "bb",
+      "gg"
+    ],
+    "notes": ""
+  },
+  "North Carolina": {
+    "state_name": "North Carolina",
+    "state_abbr": "N.C.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.05499,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 8750,
+    "personal_exemption_married": 17500,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "North Dakota": {
+    "state_name": "North Dakota",
+    "state_abbr": "N.D.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.011,
+        "min_income": 0.0,
+        "max_income": 38700.0
+      },
+      {
+        "rate": 0.0204,
+        "min_income": 38700.0,
+        "max_income": 93700.0
+      },
+      {
+        "rate": 0.0227,
+        "min_income": 93700.0,
+        "max_income": 195450.0
+      },
+      {
+        "rate": 0.0264,
+        "min_income": 195450.0,
+        "max_income": 424950.0
+      },
+      {
+        "rate": 0.029,
+        "min_income": 424950.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "p",
+      "z"
+    ],
+    "notes": ""
+  },
+  "Ohio": {
+    "state_name": "Ohio",
+    "state_abbr": "Ohio",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0198,
+        "min_income": 10650.0,
+        "max_income": 16000.0
+      },
+      {
+        "rate": 0.02746,
+        "min_income": 16000.0,
+        "max_income": 21350.0
+      },
+      {
+        "rate": 0.02969,
+        "min_income": 21350.0,
+        "max_income": 42650.0
+      },
+      {
+        "rate": 0.03465,
+        "min_income": 42650.0,
+        "max_income": 85300.0
+      },
+      {
+        "rate": 0.0396,
+        "min_income": 85300.0,
+        "max_income": 106650.0
+      },
+      {
+        "rate": 0.04597,
+        "min_income": 106650.0,
+        "max_income": 213350.0
+      },
+      {
+        "rate": 0.04997,
+        "min_income": 213350.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 10650,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "g",
+      "gg"
+    ],
+    "notes": ""
+  },
+  "Oklahoma": {
+    "state_name": "Oklahoma",
+    "state_abbr": "Okla.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.005,
+        "min_income": 0.0,
+        "max_income": 1000.0
+      },
+      {
+        "rate": 0.01,
+        "min_income": 1000.0,
+        "max_income": 2500.0
+      },
+      {
+        "rate": 0.02,
+        "min_income": 2500.0,
+        "max_income": 3750.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 3750.0,
+        "max_income": 4900.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 4900.0,
+        "max_income": 7200.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 7200.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 6350,
+    "personal_exemption_married": 12700,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "h",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Oregon": {
+    "state_name": "Oregon",
+    "state_abbr": "Ore.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.05,
+        "min_income": 0.0,
+        "max_income": 3450.0
+      },
+      {
+        "rate": 0.07,
+        "min_income": 3450.0,
+        "max_income": 8700.0
+      },
+      {
+        "rate": 0.09,
+        "min_income": 8700.0,
+        "max_income": 125000.0
+      },
+      {
+        "rate": 0.099,
+        "min_income": 125000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 2175,
+    "personal_exemption_married": 4350,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "f",
+      "aa",
+      "gg",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Pennsylvania": {
+    "state_name": "Pennsylvania",
+    "state_abbr": "Pa.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0307,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "gg"
+    ],
+    "notes": ""
+  },
+  "Rhode Island": {
+    "state_name": "Rhode Island",
+    "state_abbr": "R.I.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0375,
+        "min_income": 0.0,
+        "max_income": 62550.0
+      },
+      {
+        "rate": 0.0475,
+        "min_income": 62550.0,
+        "max_income": 149150.0
+      },
+      {
+        "rate": 0.0599,
+        "min_income": 149150.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 8525,
+    "personal_exemption_married": 17050,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "k"
+    ],
+    "notes": ""
+  },
+  "South Carolina": {
+    "state_name": "South Carolina",
+    "state_abbr": "S.C.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.03,
+        "min_income": 2970.0,
+        "max_income": 5940.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 5940.0,
+        "max_income": 8910.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 8910.0,
+        "max_income": 11880.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 11880.0,
+        "max_income": 14860.0
+      },
+      {
+        "rate": 0.07,
+        "min_income": 14860.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 2970,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 12000,
+    "personal_exemption_married": 24000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "e",
+      "p"
+    ],
+    "notes": ""
+  },
+  "South Dakota": {
+    "state_name": "South Dakota",
+    "state_abbr": "S.D.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Tennessee": {
+    "state_name": "Tennessee",
+    "state_abbr": "Tenn.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": true,
+    "brackets_single": [
+      {
+        "rate": 0.03,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "c"
+    ],
+    "notes": ""
+  },
+  "Texas": {
+    "state_name": "Texas",
+    "state_abbr": "Tex.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Utah": {
+    "state_name": "Utah",
+    "state_abbr": "Utah",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.05,
+        "min_income": 0.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "Vermont": {
+    "state_name": "Vermont",
+    "state_abbr": "Vt.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.0355,
+        "min_income": 0.0,
+        "max_income": 37900.0
+      },
+      {
+        "rate": 0.068,
+        "min_income": 37900.0,
+        "max_income": 91850.0
+      },
+      {
+        "rate": 0.078,
+        "min_income": 91850.0,
+        "max_income": 191650.0
+      },
+      {
+        "rate": 0.088,
+        "min_income": 191650.0,
+        "max_income": 416650.0
+      },
+      {
+        "rate": 0.0895,
+        "min_income": 416650.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 12000,
+    "personal_exemption_married": 24000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "p",
+      "ee"
+    ],
+    "notes": ""
+  },
+  "Virginia": {
+    "state_name": "Virginia",
+    "state_abbr": "Va.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.02,
+        "min_income": 0.0,
+        "max_income": 3000.0
+      },
+      {
+        "rate": 0.03,
+        "min_income": 3000.0,
+        "max_income": 5000.0
+      },
+      {
+        "rate": 0.05,
+        "min_income": 5000.0,
+        "max_income": 17000.0
+      },
+      {
+        "rate": 0.0575,
+        "min_income": 17000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 3000,
+    "personal_exemption_married": 6000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Washington": {
+    "state_name": "Washington",
+    "state_abbr": "Wash.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "West Virginia": {
+    "state_name": "West Virginia",
+    "state_abbr": "W.Va.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.03,
+        "min_income": 0.0,
+        "max_income": 10000.0
+      },
+      {
+        "rate": 0.04,
+        "min_income": 10000.0,
+        "max_income": 25000.0
+      },
+      {
+        "rate": 0.045,
+        "min_income": 25000.0,
+        "max_income": 40000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 40000.0,
+        "max_income": 60000.0
+      },
+      {
+        "rate": 0.065,
+        "min_income": 60000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Wisconsin": {
+    "state_name": "Wisconsin",
+    "state_abbr": "Wis.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.04,
+        "min_income": 0.0,
+        "max_income": 11230.0
+      },
+      {
+        "rate": 0.0584,
+        "min_income": 11230.0,
+        "max_income": 22470.0
+      },
+      {
+        "rate": 0.0627,
+        "min_income": 22470.0,
+        "max_income": 247350.0
+      },
+      {
+        "rate": 0.0765,
+        "min_income": 247350.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 10380,
+    "personal_exemption_married": 19210,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "a",
+      "e",
+      "m",
+      "hh"
+    ],
+    "notes": ""
+  },
+  "Wyoming": {
+    "state_name": "Wyoming",
+    "state_abbr": "Wyo.",
+    "has_income_tax": false,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 0,
+    "personal_exemption_married": 0,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [],
+    "notes": ""
+  },
+  "District of Columbia": {
+    "state_name": "District of Columbia",
+    "state_abbr": "D.C.",
+    "has_income_tax": true,
+    "is_capital_gains_only": false,
+    "is_interest_dividends_only": false,
+    "brackets_single": [
+      {
+        "rate": 0.04,
+        "min_income": 0.0,
+        "max_income": 10000.0
+      },
+      {
+        "rate": 0.06,
+        "min_income": 10000.0,
+        "max_income": 40000.0
+      },
+      {
+        "rate": 0.065,
+        "min_income": 40000.0,
+        "max_income": 60000.0
+      },
+      {
+        "rate": 0.085,
+        "min_income": 60000.0,
+        "max_income": 350000.0
+      },
+      {
+        "rate": 0.0875,
+        "min_income": 350000.0,
+        "max_income": 1000000.0
+      },
+      {
+        "rate": 0.0895,
+        "min_income": 1000000.0,
+        "max_income": null
+      }
+    ],
+    "brackets_married": [],
+    "standard_deduction_single": 0,
+    "standard_deduction_married": 0,
+    "standard_deduction_is_credit": false,
+    "personal_exemption_single": 12000,
+    "personal_exemption_married": 24000,
+    "personal_exemption_dependent": 0,
+    "exemption_is_credit": false,
+    "dependent_exemption_is_credit": false,
+    "footnotes": [
+      "j",
+      "p"
+    ],
+    "notes": ""
+  }
+}
