@@ -29,9 +29,11 @@ def render_sidebar(state_names: List[str]) -> dict:
         
     def update_income_from_number():
         st.session_state.gross_income = st.session_state.income_num
-        
+        st.session_state.income_slider = min(st.session_state.income_num, 1_000_000)
+
     def update_income_from_slider():
         st.session_state.gross_income = st.session_state.income_slider
+        st.session_state.income_num = st.session_state.income_slider
 
     gross_income_num = st.sidebar.number_input(
         t('gross_income'),
