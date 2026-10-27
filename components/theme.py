@@ -11,7 +11,7 @@ ON_FIELD = "#f2f4f4"
 ACCENT = "#f15b22"
 
 SCALE = [[0.0, "#e7eaeb"], [0.5, "#8a959b"], [1.0, ACCENT]]
-COLORWAY = [ACCENT, "#20272b", "#5f6b72", "#9aa4a9", "#b5431a", "#414b52"]
+COLORWAY = [ACCENT, "#20272b", "#3d7a8c", "#c9a227", "#8a959b", "#7a2e12"]
 LINE_COLOR = ACCENT
 
 _CSS = """
@@ -107,12 +107,19 @@ input { color: var(--dp-color-ink) !important; font-family: var(--dp-typography-
 [data-testid="stDataFrame"] { overflow: hidden; }
 /* keep chart toolbar and its tooltips unclipped, and make the zoom keys easy to hit */
 [data-testid="stPlotlyChart"] { overflow: visible; }
-.modebar { background: var(--dp-color-field) !important; border-radius: var(--dp-radius-key); padding: 2px 4px; top: 6px !important; right: 6px !important; }
+.modebar { background: var(--dp-color-field) !important; border-radius: var(--dp-radius-key); padding: 2px 4px; top: 6px !important; right: 16px !important; }
 .modebar-btn path { fill: var(--dp-color-on-field) !important; }
 .modebar-btn:hover path { fill: var(--dp-color-accent) !important; }
 .modebar-btn svg { height: 1.6em !important; }
 .st-key-comp_filing [role="radiogroup"] { align-items: center; }
-.st-key-comp_filing label { justify-content: center; }
+/* main-panel controls: labels, values and buttons centered in their columns */
+[data-baseweb="tab-panel"] [data-testid="stWidgetLabel"] { justify-content: center; width: 100%; }
+[data-baseweb="tab-panel"] [data-testid="stWidgetLabel"] p { text-align: center; }
+[data-baseweb="tab-panel"] [data-testid="stNumberInput"] input { text-align: center; }
+[data-baseweb="tab-panel"] [data-testid="stRadio"] label { justify-content: center; }
+[data-baseweb="tab-panel"] [data-testid="stRadio"] [role="radiogroup"] { align-items: center; }
+[data-baseweb="tab-panel"] [data-testid="stMultiSelect"] [data-baseweb="select"] > div > div { justify-content: center; }
+[data-baseweb="tab-panel"] .stButton { display: flex; justify-content: center; }
 [data-testid="stPlotlyChart"] { padding: 8px; }
 hr { border-color: rgba(24,30,34,.2); }
 
@@ -140,6 +147,7 @@ def style_figure(fig):
         paper_bgcolor=RAISED,
         plot_bgcolor=RAISED,
         colorway=COLORWAY,
+        margin=dict(r=48),
         title_font=dict(family="Host Grotesk, sans-serif", size=18, color=INK),
     )
     fig.update_xaxes(gridcolor="rgba(24,30,34,.15)", zerolinecolor="rgba(24,30,34,.3)")

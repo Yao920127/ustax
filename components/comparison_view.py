@@ -14,50 +14,48 @@ def render_comparison_sidebar(state_names: List[str]) -> dict:
     if not valid_defaults and state_names:
         valid_defaults = [state_names[0]]
         
-    col1, col2, col3 = st.columns(3, vertical_alignment="center")
+    _, sel_col, clear_col, _ = st.columns([2, 1, 1, 2])
+    with sel_col:
+        if st.button(t('select_all'), key='comp_select_all', width='stretch'):
+            st.session_state['comp_states'] = list(state_names)
+    with clear_col:
+        if st.button(t('clear_all'), key='comp_clear_all', width='stretch'):
+            st.session_state['comp_states'] = []
+
+    selected_states = st.multiselect(
+        t('select_states'),
+        options=state_names,
+        default=valid_defaults,
+        key='comp_states'
+    )
+
+    col1, col2, col3, col4 = st.columns(4, vertical_alignment="center")
     with col1:
-        sel_col, clear_col = st.columns(2)
-        with sel_col:
-            if st.button(t('select_all'), key='comp_select_all', width='stretch'):
-                st.session_state['comp_states'] = list(state_names)
-        with clear_col:
-            if st.button(t('clear_all'), key='comp_clear_all', width='stretch'):
-                st.session_state['comp_states'] = []
-        
-        selected_states = st.multiselect(
-            t('select_states'),
-            options=state_names,
-            default=valid_defaults,
-            key='comp_states'
-        )
-    with col2:
         filing_status = st.radio(
             t('filing_status'),
             options=FILING_STATUS_VALUES,
             format_func=filing_status_label,
             key='comp_filing'
         )
-    with col3:
+    with col2:
         num_dependents = st.number_input(
             t('num_dependents'),
             min_value=0, max_value=10, value=0, step=1, key="comp_deps"
         )
-    
-    col4, col5 = st.columns(2)
-    with col4:
+    with col3:
         gross_income = st.number_input(
             t('gross_income'),
             min_value=0, max_value=100_000_000, value=100_000,
             step=5000, format="%d", key="comp_income"
         )
-    with col5:
+    with col4:
         capital_gains = st.number_input(
             t('capital_gains'),
             min_value=0, max_value=100_000_000, value=0,
             step=5000, format="%d", key="comp_cg",
             help=t('cg_note')
         )
-        
+
     return {
         'selected_states': selected_states,
         'filing_status': FilingStatus.from_value(filing_status),

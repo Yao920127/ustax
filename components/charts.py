@@ -5,7 +5,7 @@ import math
 from models.state_tax_config import TaxResult
 from utils.formatter import format_percent, format_currency
 from utils.i18n import t
-from components.theme import style_figure, SCALE, LINE_COLOR, RAISED
+from components.theme import COLORWAY, style_figure, SCALE, LINE_COLOR, RAISED
 
 def plot_bracket_chart(result: TaxResult) -> go.Figure:
     fig = go.Figure()
@@ -66,7 +66,7 @@ def plot_comparison_bar(comparison_df: pd.DataFrame) -> go.Figure:
         coloraxis_showscale=False
     )
     
-    fig.update_traces(textposition='outside')
+    fig.update_traces(textposition='outside', cliponaxis=False)
     
     return style_figure(fig)
 
@@ -76,6 +76,7 @@ def plot_effective_rate_curve(curve_data: pd.DataFrame) -> go.Figure:
         x='Income',
         y='Effective Rate',
         color='State',
+        color_discrete_sequence=COLORWAY,
         title=t('chart_curve')
     )
     
