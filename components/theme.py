@@ -49,19 +49,20 @@ label p, [data-testid="stMetricLabel"] p, [data-baseweb="tab"] p {
 }
 
 /* Navigation: bank of raised keys */
-[data-baseweb="tab-list"] { justify-content: center; gap: 8px; background: transparent; padding-bottom: 8px; }
+[role="tablist"] { justify-content: center; gap: 8px; background: transparent; padding-bottom: 8px; }
 [data-baseweb="tab-highlight"], [data-baseweb="tab-border"] { display: none; }
-button[data-baseweb="tab"] {
+[role="tablist"] { width: 100%; }
+button[role="tab"] {
   background: var(--dp-color-raised); border-radius: var(--dp-radius-key); height: auto; padding: 10px 18px;
   box-shadow: var(--raised-shadow);
   transition: transform 130ms var(--dp-motion-settle), box-shadow 130ms var(--dp-motion-settle);
 }
-button[data-baseweb="tab"]:hover { transform: translateY(-1px); }
-button[data-baseweb="tab"][aria-selected="true"] {
+button[role="tab"]:hover { transform: translateY(-1px); }
+button[role="tab"][aria-selected="true"] {
   background: var(--dp-color-well); box-shadow: var(--recess-shadow); border-bottom: 3px solid var(--dp-color-accent);
 }
-button[data-baseweb="tab"] p { color: var(--dp-color-ink); font-weight: 500; }
-[data-baseweb="tab-panel"] {
+button[role="tab"] p { color: var(--dp-color-ink); font-weight: 500; }
+[role="tabpanel"] {
   background: var(--dp-color-raised); border-radius: var(--dp-radius-key); margin-top: 12px;
   padding: 2rem clamp(1rem, 3vw, 2.5rem); box-shadow: var(--raised-shadow);
 }
@@ -113,13 +114,13 @@ input { color: var(--dp-color-ink) !important; font-family: var(--dp-typography-
 .modebar-btn svg { height: 1.6em !important; }
 .st-key-comp_filing [role="radiogroup"] { align-items: center; }
 /* main-panel controls: labels, values and buttons centered in their columns */
-[data-baseweb="tab-panel"] [data-testid="stWidgetLabel"] { justify-content: center; width: 100%; }
-[data-baseweb="tab-panel"] [data-testid="stWidgetLabel"] p { text-align: center; }
-[data-baseweb="tab-panel"] [data-testid="stNumberInput"] input { text-align: center; }
-[data-baseweb="tab-panel"] [data-testid="stRadio"] label { justify-content: center; }
-[data-baseweb="tab-panel"] [data-testid="stRadio"] [role="radiogroup"] { align-items: center; }
-[data-baseweb="tab-panel"] [data-testid="stMultiSelect"] [data-baseweb="select"] > div > div { justify-content: center; }
-[data-baseweb="tab-panel"] .stButton { display: flex; justify-content: center; }
+[role="tabpanel"] [data-testid="stWidgetLabel"] { justify-content: center; width: 100%; }
+[role="tabpanel"] [data-testid="stWidgetLabel"] p { text-align: center; }
+[role="tabpanel"] [data-testid="stNumberInput"] input { text-align: center; }
+[role="tabpanel"] [data-testid="stRadio"] label { justify-content: center; }
+[role="tabpanel"] [data-testid="stRadio"] [role="radiogroup"] { align-items: center; }
+[role="tabpanel"] [data-testid="stMultiSelect"] [data-baseweb="select"] > div > div { justify-content: center; }
+[role="tabpanel"] .stButton { display: flex; justify-content: center; }
 [data-testid="stPlotlyChart"] { padding: 8px; }
 hr { border-color: rgba(24,30,34,.2); }
 
@@ -131,7 +132,7 @@ hr { border-color: rgba(24,30,34,.2); }
 @media (max-width: 760px) { .block-container { border-radius: 12px; padding: 1.25rem .75rem !important; } }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
-  .stButton > button:hover, .stButton > button:active, button[data-baseweb="tab"]:hover { transform: none; }
+  .stButton > button:hover, .stButton > button:active, button[role="tab"]:hover { transform: none; }
 }
 """
 
