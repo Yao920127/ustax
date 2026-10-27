@@ -5,7 +5,7 @@ import math
 from models.state_tax_config import TaxResult
 from utils.formatter import format_percent, format_currency
 from utils.i18n import t
-from components.theme import style_figure, CLAY_SCALE, LINE_COLOR, SURFACE
+from components.theme import style_figure, SCALE, LINE_COLOR, RAISED
 
 def plot_bracket_chart(result: TaxResult) -> go.Figure:
     fig = go.Figure()
@@ -29,7 +29,7 @@ def plot_bracket_chart(result: TaxResult) -> go.Figure:
             x=[start_val, end_val, end_val, start_val],
             y=[detail.rate, detail.rate, 0, 0],
             fill='toself',
-            fillcolor='rgba(224, 98, 159, 0.2)',
+            fillcolor='rgba(241, 91, 34, 0.2)',
             line=dict(color='rgba(255,255,255,0)'),
             hoverinfo='skip',
             showlegend=False
@@ -55,7 +55,7 @@ def plot_comparison_bar(comparison_df: pd.DataFrame) -> go.Figure:
         y='State',
         orientation='h',
         color='Total Tax',
-        color_continuous_scale=CLAY_SCALE,
+        color_continuous_scale=SCALE,
         text=df_sorted['Effective Rate'].apply(format_percent)
     )
     
@@ -94,7 +94,7 @@ def plot_us_map(map_data: pd.DataFrame) -> go.Figure:
         locationmode='USA-states',
         locations='Postal',
         color='Effective Rate',
-        color_continuous_scale=CLAY_SCALE,
+        color_continuous_scale=SCALE,
         scope='usa',
         hover_name='State',
         hover_data={
@@ -108,8 +108,8 @@ def plot_us_map(map_data: pd.DataFrame) -> go.Figure:
     
     fig.update_layout(
         geo=dict(
-            lakecolor=SURFACE,
-            bgcolor=SURFACE,
+            lakecolor=RAISED,
+            bgcolor=RAISED,
             projection_type='albers usa'
         )
     )
