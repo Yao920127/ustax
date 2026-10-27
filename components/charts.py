@@ -5,6 +5,7 @@ import math
 from models.state_tax_config import TaxResult
 from utils.formatter import format_percent, format_currency
 from utils.i18n import t
+from components.theme import style_figure, CLAY_SCALE, LINE_COLOR, SURFACE
 
 def plot_bracket_chart(result: TaxResult) -> go.Figure:
     fig = go.Figure()
@@ -18,7 +19,7 @@ def plot_bracket_chart(result: TaxResult) -> go.Figure:
             x=[start_val, end_val],
             y=[detail.rate, detail.rate],
             mode='lines',
-            line=dict(color='royalblue', width=4),
+            line=dict(color=LINE_COLOR, width=4),
             name=format_percent(detail.rate),
             hovertemplate=f"Income: {format_currency(start_val)} - {format_currency(end_val)}<br>Rate: {format_percent(detail.rate)}<extra></extra>"
         ))
@@ -28,7 +29,7 @@ def plot_bracket_chart(result: TaxResult) -> go.Figure:
             x=[start_val, end_val, end_val, start_val],
             y=[detail.rate, detail.rate, 0, 0],
             fill='toself',
-            fillcolor='rgba(65, 105, 225, 0.2)',
+            fillcolor='rgba(224, 98, 159, 0.2)',
             line=dict(color='rgba(255,255,255,0)'),
             hoverinfo='skip',
             showlegend=False
@@ -43,7 +44,7 @@ def plot_bracket_chart(result: TaxResult) -> go.Figure:
         hovermode='x unified'
     )
     
-    return fig
+    return style_figure(fig)
 
 def plot_comparison_bar(comparison_df: pd.DataFrame) -> go.Figure:
     df_sorted = comparison_df.sort_values('Total Tax', ascending=False)
@@ -54,7 +55,7 @@ def plot_comparison_bar(comparison_df: pd.DataFrame) -> go.Figure:
         y='State',
         orientation='h',
         color='Total Tax',
-        color_continuous_scale='RdYlGn_r',
+        color_continuous_scale=CLAY_SCALE,
         text=df_sorted['Effective Rate'].apply(format_percent)
     )
     
@@ -67,7 +68,7 @@ def plot_comparison_bar(comparison_df: pd.DataFrame) -> go.Figure:
     
     fig.update_traces(textposition='outside')
     
-    return fig
+    return style_figure(fig)
 
 def plot_effective_rate_curve(curve_data: pd.DataFrame) -> go.Figure:
     fig = px.line(
@@ -85,7 +86,7 @@ def plot_effective_rate_curve(curve_data: pd.DataFrame) -> go.Figure:
         hovermode='x unified'
     )
     
-    return fig
+    return style_figure(fig)
 
 def plot_us_map(map_data: pd.DataFrame) -> go.Figure:
     fig = px.choropleth(
@@ -93,7 +94,7 @@ def plot_us_map(map_data: pd.DataFrame) -> go.Figure:
         locationmode='USA-states',
         locations='Postal',
         color='Effective Rate',
-        color_continuous_scale='RdYlGn_r',
+        color_continuous_scale=CLAY_SCALE,
         scope='usa',
         hover_name='State',
         hover_data={
@@ -107,9 +108,10 @@ def plot_us_map(map_data: pd.DataFrame) -> go.Figure:
     
     fig.update_layout(
         geo=dict(
-            lakecolor='rgb(255, 255, 255)',
+            lakecolor=SURFACE,
+            bgcolor=SURFACE,
             projection_type='albers usa'
         )
     )
     
-    return fig
+    return style_figure(fig)

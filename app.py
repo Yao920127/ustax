@@ -9,6 +9,7 @@ from components.sidebar import render_sidebar
 from components.tax_result import render_tax_result
 from components.comparison_view import render_comparison, render_comparison_sidebar
 from components.charts import plot_bracket_chart
+from components.theme import apply_theme
 from utils.formatter import format_currency, format_percent
 from utils.constants import STATE_FULL_TO_POSTAL
 from utils.i18n import t, lang, filing_status_label, LANGUAGES, DEFAULT_LANG
@@ -21,6 +22,8 @@ st.set_page_config(
     page_icon="🏛️",
     layout="wide"
 )
+
+apply_theme()
 
 # ---- Global settings (visible across tabs) ----
 with st.sidebar:
