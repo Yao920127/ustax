@@ -14,7 +14,7 @@ def render_comparison_sidebar(state_names: List[str]) -> dict:
     if not valid_defaults and state_names:
         valid_defaults = [state_names[0]]
         
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = st.columns(3, vertical_alignment="center")
     with col1:
         sel_col, clear_col = st.columns(2)
         with sel_col:
@@ -34,7 +34,8 @@ def render_comparison_sidebar(state_names: List[str]) -> dict:
         filing_status = st.radio(
             t('filing_status'),
             options=FILING_STATUS_VALUES,
-            format_func=filing_status_label
+            format_func=filing_status_label,
+            key='comp_filing'
         )
     with col3:
         num_dependents = st.number_input(
@@ -72,11 +73,11 @@ def render_comparison(comparison_df: pd.DataFrame, curve_data: pd.DataFrame):
     
     with col1:
         fig_bar = plot_comparison_bar(comparison_df)
-        st.plotly_chart(fig_bar, width="stretch")
+        st.plotly_chart(fig_bar, width="stretch", config={"displayModeBar": True, "displaylogo": False})
         
     with col2:
         fig_curve = plot_effective_rate_curve(curve_data)
-        st.plotly_chart(fig_curve, width="stretch")
+        st.plotly_chart(fig_curve, width="stretch", config={"displayModeBar": True, "displaylogo": False})
         
     st.markdown(f"### {t('detailed_table')}")
     

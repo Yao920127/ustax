@@ -92,7 +92,7 @@ with tab1:
     # Bracket chart
     if result.has_income_tax and result.bracket_details:
         fig = plot_bracket_chart(result)
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": True, "displaylogo": False})
 
 with tab2:
     st.header(t('header_comparison'))
@@ -138,7 +138,7 @@ with tab3:
     
     from components.charts import plot_us_map
     fig = plot_us_map(map_df)
-    st.plotly_chart(fig, width="stretch")
+    st.plotly_chart(fig, width="stretch", config={"displayModeBar": True, "displaylogo": False})
     
     # Show the full table below the map
     st.subheader(t('all_states_data'))

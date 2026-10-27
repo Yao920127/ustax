@@ -28,7 +28,7 @@ _CSS = """
   --raised-shadow: inset 1px 1px 0 rgba(255,255,255,.9), inset -1px -1px 0 rgba(0,0,0,.18), 3px 4px 8px rgba(24,30,34,.22);
   --recess-shadow: inset 3px 3px 6px rgba(24,30,34,.25), inset -2px -2px 4px rgba(255,255,255,.55);
 }
-html, body, .stApp, [class*="st-"], button, input, textarea, select { font-family: var(--dp-typography-sans); }
+.stApp, button, input, textarea, select { font-family: var(--dp-typography-sans); }
 .stApp [data-testid="stIconMaterial"], .stApp span[class*="material"] {
   font-family: "Material Symbols Rounded", "Material Icons" !important;
 }
@@ -49,7 +49,7 @@ label p, [data-testid="stMetricLabel"] p, [data-baseweb="tab"] p {
 }
 
 /* Navigation: bank of raised keys */
-[data-baseweb="tab-list"] { gap: 8px; background: transparent; padding-bottom: 8px; }
+[data-baseweb="tab-list"] { justify-content: center; gap: 8px; background: transparent; padding-bottom: 8px; }
 [data-baseweb="tab-highlight"], [data-baseweb="tab-border"] { display: none; }
 button[data-baseweb="tab"] {
   background: var(--dp-color-raised); border-radius: var(--dp-radius-key); height: auto; padding: 10px 18px;
@@ -76,8 +76,8 @@ button[data-baseweb="tab"] p { color: var(--dp-color-ink); font-weight: 500; }
   box-shadow: inset 3px 3px 8px rgba(0,0,0,.6), inset -1px -1px 0 rgba(255,255,255,.12), 0 1px 0 rgba(255,255,255,.8);
   border-left: 4px solid var(--dp-color-accent);
 }
-[data-testid="stMetricLabel"] p { color: #d8dee1; }
-[data-testid="stMetricValue"] { color: var(--dp-color-on-field); font-weight: 700; letter-spacing: -0.02em; }
+[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] * { color: #d8dee1 !important; }
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] * { color: var(--dp-color-on-field) !important; font-weight: 700; letter-spacing: -0.02em; }
 
 /* Buttons: rectangular raised keys */
 .stButton > button, .stDownloadButton > button {
@@ -102,8 +102,17 @@ input { color: var(--dp-color-ink) !important; font-family: var(--dp-typography-
 [data-testid="stExpander"] summary { font-weight: 600; }
 [data-testid="stAlert"] { border-radius: var(--dp-radius-key); color: var(--dp-color-ink); box-shadow: var(--recess-shadow); }
 [data-testid="stDataFrame"], [data-testid="stPlotlyChart"] {
-  border-radius: var(--dp-radius-key); box-shadow: var(--recess-shadow); overflow: hidden; background: var(--dp-color-raised);
+  border-radius: var(--dp-radius-key); box-shadow: var(--recess-shadow); background: var(--dp-color-raised);
 }
+[data-testid="stDataFrame"] { overflow: hidden; }
+/* keep chart toolbar and its tooltips unclipped, and make the zoom keys easy to hit */
+[data-testid="stPlotlyChart"] { overflow: visible; }
+.modebar { background: var(--dp-color-field) !important; border-radius: var(--dp-radius-key); padding: 2px 4px; top: 6px !important; right: 6px !important; }
+.modebar-btn path { fill: var(--dp-color-on-field) !important; }
+.modebar-btn:hover path { fill: var(--dp-color-accent) !important; }
+.modebar-btn svg { height: 1.6em !important; }
+.st-key-comp_filing [role="radiogroup"] { align-items: center; }
+.st-key-comp_filing label { justify-content: center; }
 [data-testid="stPlotlyChart"] { padding: 8px; }
 hr { border-color: rgba(24,30,34,.2); }
 
